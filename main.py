@@ -47,6 +47,12 @@ def index():
     </a>
     </h2>
     <h2>
+    <a href="/lookwhoisalive?fname=Eskay" class="button">
+        Eskay Click here
+    </a>
+    </h2>
+
+    <h2>
     Someone else ?
     <form action='/lookwhoisalive'>
       <label for="fname">Name:</label><br>
