@@ -9,7 +9,7 @@ RUN pip install Flask
 # create a workdir App
 WORKDIR /tmp/
 # copy the main.py in current directory 
-COPY ./main.py /app/main.py
+COPY ./main.py /tmp/main.py
 # Run python as entrypoint
 ENTRYPOINT [ "python" ]
 # run the app main.py
